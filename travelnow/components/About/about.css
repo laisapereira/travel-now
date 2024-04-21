@@ -1,0 +1,154 @@
+.section-about {
+    display:flex;
+    align-items:center;
+    gap:81px;
+    padding: 114px 0 157px 57px;
+}
+
+.section-services{
+    display:flex;
+    gap:28px;
+}
+
+.section-info-about {
+    display:flex;
+    flex-direction:column;
+    gap:34px;
+}
+
+#section-info-services {
+    display:flex;
+    flex-direction:column;
+    gap:23px;
+       
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 26px;
+    font-family: var(--second-f-font-family);
+    font-weight:400;
+
+}
+
+.description {
+    font-size:14px;
+    font-family: var(--main-f-font-family);
+    padding-top:3px;
+    width: 75%;
+    line-height: 20px;
+}
+
+.service-icon {
+    width:70px;
+    height:70px;
+    box-shadow: 0px 1px 4px 0px #00000040;
+    border-radius:10px;
+    padding:17px;
+
+}
+
+.service-icon img {
+    width:40px;
+    height:40px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 430px) {
+    .section-about {
+        flex-direction:column;
+        padding: 0;
+        gap: 50px;
+    }
+
+    .section-info-about {
+        padding: 0 33px 74px 32px;
+        gap:47px;
+    }
+
+    #main-title-travel {
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    .description {
+        text-align: initial;
+        width: 105%;
+
+    }
+
+}
+
+@media screen and (min-width: 431px) and (max-width: 650px) {
+
+    .section-about {
+        flex-direction:column;
+        padding: 0;
+        gap: 50px;
+    }
+
+    .section-info-about {
+        padding: 0 33px 74px 40px;
+        gap:47px;
+    }
+
+    .description {
+        text-align: initial;
+        width: 95%;
+        font-size: 17px;
+
+    }
+
+}
+
+@media screen and (min-width: 651px) and (max-width: 800px) {
+
+    .section-about {
+        flex-direction:column;
+        padding: 0;
+        gap: 50px;
+    }
+
+    .section-info-about {
+        padding: 0 33px 74px 90px;
+        gap:47px;
+    }
+
+    .description {
+        text-align: justify;
+        width: 70%;
+        font-size: 17px;
+
+    }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+        .section-about {
+            gap: 30px;
+            padding: 0 0 100px 1rem;
+        }
+
+        .description {
+            font-size: 15px;
+            width: 85%;
+        }
+
+        #section-info-about {
+            gap:38px;
+        }
+
+
+
+}
+
+
+
+
+
+
+
+
+
