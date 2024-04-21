@@ -1,0 +1,247 @@
+.section {
+    display:flex;
+    align-items: center;
+    padding: 83px 0 0 52px;
+    
+}
+
+#section-find {
+    padding-bottom:0;
+}
+
+.section-aside {
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    
+}
+
+.main-descript {
+    padding-bottom: 34px;
+    font-family: var(--main-f-font-family);
+    font-weight: 300;
+    text-align:justify;
+    width: 80%;
+    line-height: 26px;
+    font-size:18px;
+}
+
+#section-bottom {
+    width: 80%;
+    display:flex;
+    align-items: center;
+    border-radius: 100px;
+    justify-content: space-between;
+    padding: 24px;
+    box-shadow: 0px 1px 4px 0px #00000036;
+    color: var(--main-ic-color);
+}
+
+#section-bottom ::placeholder {
+    color: var(--main-ic-color);
+    font-family: var(--main-f-font-family);
+    font-size:18px;
+    outline-style: transparent;
+}
+.main-title{
+    font-size: 76px;
+    font-family: var(--second-f-font-family);
+    color: var(--title-section-color);
+    font-weight: 300;
+    line-height: 70px;
+    width:90%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 430px) {
+
+    #section-find {
+        display:flex;
+        flex-direction:column-reverse;
+        padding: 90px 32px 50px 32px;
+    }
+
+    .section-image img {
+        width:90vw;
+           
+    }
+
+    .section-aside {
+        padding-top: 50px;
+    }
+
+    .main-title {
+        font-size: 30px;
+        font-weight:400;
+        line-height: 27.51px;
+        width:80%
+    }
+
+    .main-descript {
+        font-size: 15px;
+        width:100%;
+        line-height: 22px;
+        padding-bottom:10px;
+        text-align: initial;
+    }
+
+    #section-bottom {
+        width:320px;
+        padding: 10px 20px;
+    }
+
+    #btn-search {
+        padding:5px;
+        font-size:14px;
+        width: 28vw;
+
+    }
+
+
+}
+    @media screen and (min-width: 431px) and (max-width: 550px) {
+
+        #section-find {
+            display:flex;
+            flex-direction:column-reverse;
+            align-items:initial;
+            padding-top: 15vh;
+        }
+
+
+        .section-image img {
+            width:83vw;
+               
+        }
+
+        .section-aside {
+            padding:3rem 0 0 0rem;
+        }
+
+        .main-title {
+            font-size:2.7rem;
+            line-height: 50px;
+        }
+
+        .main-descript {
+            width:90%;
+            padding-bottom:20px;
+
+        }
+
+        #section-bottom {
+            width:90%;
+            padding: 0.7rem;
+        }
+
+    }
+
+
+    @media screen and (min-width: 551px) and (max-width: 800px) {
+
+        .section {
+            padding: 83px 0 0 0;
+        }
+
+        #section-find {
+            display:flex;
+            flex-direction:column-reverse;
+            align-items:center;
+            padding-top: 38vh;
+        }
+
+        .section-image img {
+            width:70vw;
+               
+        }
+
+        .section-aside {
+            align-items:center;
+            padding-top:3rem;
+            padding-bottom:2rem;
+        }
+
+
+        .main-title {
+            font-size:3rem;
+            width:70%;
+            line-height: 50px;
+        }
+
+        .main-descript {
+            padding-bottom:10px;
+            width:70%;
+            text-align: initial;
+        }
+
+        #section-bottom {
+            width:60%;
+            padding:15px;
+        }
+    }
+
+
+
+    @media screen and (min-width: 801px) and (max-width: 1150px) {
+            
+        #section-find {
+            display:flex;
+            align-items:center;
+            padding-top: 36vh;
+        }
+
+        .section-aside {
+            width:70%
+        }
+        
+    
+        .section-image img {
+            width:98%;
+        }
+
+
+        .main-title {
+            font-size:3rem;
+            line-height:3.5rem;
+        }
+
+        .main-descript {
+            font-size: 16px;
+            padding-bottom: 10px;
+        }
+
+
+        #section-bottom {
+            width: 80%;
+            padding:12px;
+        }
+
+        #section-bottom button {
+            padding: 10px 15px;
+        }
+
+    }
+
+    @media screen and (min-width: 1151px) and (max-width: 1439px) {
+        .main-title {
+            width: 99%
+        }
+
+        .main-descript {
+            width:90%
+        }
+
+
+    }
+
+    
+    
+
+
+
+
+
+
+
+
+
+
