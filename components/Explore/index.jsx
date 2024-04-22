@@ -6,7 +6,7 @@ export default function Explore() {
         <div>
             <section className='section' id="section-explore">
                 <div className="section-image">
-                    <img src="components/imagens/img2.png" alt="imagem2"></img>
+                    <img src="../../src/public/img2.png" alt="imagem2"></img>
                 </div>
 
                 <div className='section-aside' id='section-aside-travel'>

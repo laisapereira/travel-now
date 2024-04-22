@@ -8,7 +8,7 @@ export default function Cards(props) {
                 <img src={props.imagem}></img>
                 <div className='card-info'>
                     <p className='destination-title'>{props.title}</p>
-                    <img src="components/imagens/votos.png"></img>
+                    <img src="../../src/public/votos.png"></img>
                     <p className='destination-price'>$6000</p>
                 </div>
             </section>

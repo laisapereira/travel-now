@@ -6,7 +6,8 @@ export default function AboutUs() {
         <div>
             <section className='section-about' id='section-about'>
                 <div className="section-image">
-                    <img src="components/imagens/traveling.png"></img>
+                ../../src/public/
+                    <img src="../../src/public/traveling.png"></img>
                 </div>
 
                 <div className="section-info-about">
@@ -15,7 +16,7 @@ export default function AboutUs() {
                     <div id='section-info-services'>
                         <div className="section-services">
                             <div className='service-icon'>
-                                <img src="components/imagens/ticket.png"></img>
+                                <img src="../../src/public/ticket.png"></img>
                             </div>
                             <div>
                                 <h3>Ticket</h3>
@@ -24,7 +25,7 @@ export default function AboutUs() {
                         </div>
                         <div className="section-services">
                             <div className='service-icon'>
-                                <img src="components/imagens/car.svg"></img>
+                                <img src="../../src/public/car.svg"></img>
                             </div>
                             <div>
                                 <h3>Driver</h3>
@@ -33,7 +34,7 @@ export default function AboutUs() {
                         </div>
                         <div className="section-services">
                             <div className='service-icon'>
-                                <img src="components/imagens/plane.png"></img>
+                                <img src="../../src/public/plane.png"></img>
                             </div>
                             <div>
                                 <h3>Tour</h3>

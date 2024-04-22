@@ -16,7 +16,7 @@ export default function Search() {
                 </div>
 
                 <div className="section-image">
-                    <img src="components/imagens/img1.png" alt="imagem1"></img>
+                    <img src="../../src/public/img1.png" alt="imagem1"></img>
                 </div>
 
             </section>

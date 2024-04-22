@@ -10,7 +10,7 @@ COPY . .
 
 RUN npm run build
 
-#Server with nginx
+# nginx grande gominhooooo
 
 FROM nginx:alpine3.18
 
