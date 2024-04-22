@@ -26,4 +26,4 @@ jobs:
       - name: Pull image from DockerHub
         run: docker pull laisapereira/travel-now:latest
       - name: Run Docker Container
-        run: docker run -d -p 3000:80 --name reactContainer laisapereira/travel-now
+        run: docker run -d -p 3000:80 --name reactContainer_C2 laisapereira/travel-now
